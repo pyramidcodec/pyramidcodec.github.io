@@ -75,7 +75,7 @@
 
   <figcaption style="text-align: center;">
   <!-- <b>Figure 1:</b> The audio quality and inference speed comparisons of different TTS systems. We use  MOS (mean opinion score) and NFE (number of  function evaluations) to measure the audio quality and inference speed, respectively. The higher MOS and lower NFE indicate better audio quality and faster inference speed. The proposed CoMoSpeech achieves the best trade-off between audio quality and inference speed. In addition, our teacher models achieve the best audio quality among all the compared methods. -->
-  <b>Figure 1:</b>  Overview of FastSAG. (a) indicates how training data is constructed using a source separation algorithm to acquire vocal-accompaniment pairs. (b) illustrates how to compute conditions based on vocal input. It mainly contains two blocks: semantic projection block and prior projection block. The semantic block is for high-level semantic control and the prior block is for frame-level control. (c) is the stochastic differential equation (SDE) solver, which will take prior computed in (b) as a condition. In the inference process, the generated Mel spectrogram will be converted to an audio waveform through BigvGAN. 
+  <b>Figure 1:</b>  Overview of PyramidCodec. (a) The illustration of pyramid encoding, which takes multi-scale features as input and outputs discrete hierarchical codecs and continuous hierarchical features after quantization. (b) The illustration of pyramid decoding and multi-scale ground truth construction for hierarchical training.
   </figcaption>
   </figure>
   <!-- <br></br> -->
