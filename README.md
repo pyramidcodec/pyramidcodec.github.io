@@ -1,2 +1,1 @@
-# pyramidcodec.github.io
-test
+# This is the demo page for HierCodec
