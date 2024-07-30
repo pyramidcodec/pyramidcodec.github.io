@@ -83,7 +83,9 @@
 
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded"> 
 <h2 id="In-domain" style="text-align:center;"><font color="000000">Music Continuation Samples</font></h2>
-<p style="text-align: justify;"><font color="000000"> The following samples are music continuation samples. The first 10 senconds of music are prompts and the remaining 30 seconds are composed with different methods.
+<p style="text-align: justify;"><font color="000000"> The following samples are music continuation samples. The first 10 senconds of music are prompts and the remaining 30 seconds are composed with different methods. 
+	Notably, the AudioLM baseline exhibits inferior performance in both audio quality and musicality, largely due to the inefficient Encodec and the fact that it was not re-trained on the audio-converted LAKH dataset. We make an explanation of highlight how our method "Pyramid-TPS70" performs better compared to "DAC-TPS86".
+	The sample1 of "DAC-TPS86" tends to compose monotonous and repetitive rhythm. 
 <ul style="list-style-type:square">
 <!--
 <li><font color="061E61"> For each dataset, the same HiFi-GAN vocoder pretrained on GT mel is used for all methods. </font></li>
