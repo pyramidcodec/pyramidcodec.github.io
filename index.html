@@ -85,7 +85,7 @@
 <h2 id="In-domain" style="text-align:center;"><font color="000000">Music Continuation Samples</font></h2>
 <p style="text-align: justify;"><font color="000000"> The following samples are music continuation samples. The first 10 senconds of music are prompts and the remaining 30 seconds are composed with different methods. 
 	Notably, the AudioLM baseline exhibits inferior performance in both audio quality and musicality, largely due to the inefficient Encodec and the fact that it was not re-trained on the audio-converted LAKH dataset. We make an explanation of highlight how our method "Pyramid-TPS70" performs better compared to "DAC-TPS86".
-	The sample1 of "DAC-TPS86" tends to compose monotonous and repetitive rhythm. 
+	The sample1 of "DAC-TPS86" tends to compose monotonous and repetitive rhythm. A disharmony instrument occurs at 16-17 second in the sample3 of "DAC-TPS86". For sample4 of "DAC-TPS86", disharmony occurs at about 35 seconds. The sample6 of "DAC-TPS86" loss one instrument since about 15 seconds. The sample2 and sample5 may be based on individual taste.
 <ul style="list-style-type:square">
 <!--
 <li><font color="061E61"> For each dataset, the same HiFi-GAN vocoder pretrained on GT mel is used for all methods. </font></li>
@@ -171,7 +171,7 @@
  
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded"> 
   <h2 id="TTS" style="text-align:center;"><font color="000000">Long-form Music Generation from Scratch</font></h2>
-  <p style="text-align: justify;"><font color="000000"> The following samples are generated using PyramidCodec for tokenizer and tiny-GPT2 (40M trainable parameters) as language model. 
+  <p style="text-align: justify;"><font color="000000"> The following samples are generated using PyramidCodec for tokenizer and tiny-GPT2 (40M trainable parameters) as language model. We recommend that listeners focus on aspects such as coherence, rhythm, and adherence to musical conventions.
   <ul style="list-style-type:square">
 
     <br></br>
